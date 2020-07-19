@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+
+    background: url('/img/fundo-login.jpg') fixed no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: fade 0.4s;
+
+}
+section.login h1{
+    position: relative;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    top: 45px;
+}
+img#sim {
+    position: absolute;
+    top: 60px;
+    left: 41%;
+}
+input#txt1 {
+    position: absolute;
+    top: 140px;
+    left: 36%;
+    width: 270px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #111014;
+    border: 3px solid #111014;
+    border-radius: 6px;
+    color: white;
+}
+input#txt2 {
+    position: absolute;
+    top: 190px;
+    left: 36%;
+    width: 270px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #111014;
+    border: 3px solid #111014;
+    border-radius: 6px;
+    color: white;
+}
+h2#txth2 {
+    position: absolute;
+    left: 36%;
+    top: 230px;
+    color: #7159C1;
+    font-size: 10pt;
+    cursor: pointer;
+}
+h2#txt2h2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    top: 320px;
+    left: 40vw;
+}
+
+h3#txth3 {
+    position: absolute;
+    color: #7159C1;
+    cursor: pointer;
+    top: 318px;
+    left: 50vw;
+    font-size: 10pt;
+}
+h3#txt3h3 {
+    position: absolute;
+    left: 46%;
+    color: gray;
+    font-size: 6pt;
+    text-align: center;
+}
+h3#txt4h3 {
+    position: absolute;
+    left: 42%;
+    top: 20px;
+    color: gray;
+    font-size: 6pt;
+    text-align: center;
+}
+#but {
+    position: absolute;
+    top: 270px;
+    left: 36%;
+    width: 293px;
+    height: 42px;
+    padding-left: 15px;
+    background-color: #7159C1;
+    border-radius: 6px;
+    border: 3px solid #7159C1;
+}
+#but2 {
+    position: absolute;
+    top: 390px;
+    left: 36%;
+    width: 293px;
+    height: 42px;
+    padding-left: 15px;
+    background-color: #7159C1;
+    border-radius: 6px;
+    border: 3px solid #7159C1;
+    color: white;
+}
+footer {
+    display: block;
+    position: absolute;
+    top: 470px;
+    width: 99vw;
+}
+@keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.7);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+@media (max-width: 1440px) {
+    img#sim {
+        left: 39%;
+    }
+    h1#rock {
+        position: absolute;
+        left: 43%;
+    }
+    h2#txt2h2 {
+        left: 37%;
+        font-size: 12pt;
+    }
+    h3#txth3 {
+        left: 51%;
+        font-size: 12pt;
+    }
+    section.login {
+        position: relative;
+        top: 170px;
+    }
+    h3#txt3h3 {
+        left: 42%;
+    }
+    h3#txt4h3 {
+        left: 39%;
+    }
+}
+@media (max-width:1366px) {
+    section.login {
+        position: relative;
+        top: 0px;
+    }
+    h3#txt3h3 {
+        left: 45%;
+    }
+    h3#txt4h3 {
+        left: 41%
+    }
+}
+@media (max-width: 1280px) {
+    h2#txt2h2 {
+        font-size: 11pt;
+    }
+    h3#txth3 {
+        font-size: 11pt;
+    }
+}
+@media (max-width: 1024px) {
+    h3#txth3 {
+        left: 55%;
+    }
+}
+@media (max-width: 1024px) {
+    section.login {
+        transform: scale(0.5);
+        position: relative;
+        top: 170px;
+        left: -5%;
+    }
+    h1#rock {
+        left: 50%;
+    }
+    h3#txt4h3 {
+        left: 36%;
+    }
+    h3#txth3 {
+        left: 71%;
+    }
+}
+@media (max-width: 375px) {
+    h3#txth3 {
+        left: 74%;
+    }
+}
+@media (max-width: 425px) {
+    h3#txth3 {
+        left: 74%;
+    }
+}
+@media (max-width: 320px) {
+    h3#txth3 {
+        left: 82%;
+    }
+    section.login {
+        left: -13%;
+    }
+    h3#txt3h3 {
+        left: 38%;
+    }
+    h3#txt4h3 {
+        left: 28%
+    }
+}
+
